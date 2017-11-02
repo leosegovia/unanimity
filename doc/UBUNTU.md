@@ -1,6 +1,6 @@
 
 
-Before install dependencies:
+### Before install dependencies:
 ```
 sudo apt-get update && \
 sudo apt-get install build-essential software-properties-common  gfortran graphviz libjpeg-dev libfreetype6-dev -y && \
