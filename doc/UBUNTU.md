@@ -16,7 +16,7 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 60 --slave 
 
 Once dependencied have been installed proceed with `pitchfork`install:
 
-###To install Individual Tools: use `pitchfork`
+### To install Individual Tools: use `pitchfork`
 
 The easiest way to build is to use the `pitchfork` build tool, which
 automates dependency fetching/resolution:
