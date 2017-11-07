@@ -13,6 +13,12 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /u
 sudo apt-get install gcc-4.8 g++-4.8 -y && \
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.8;
 ```
+## Install OPENBLAS
+
+```
+sudo apt-ge t install libopenblas-* -y && \
+```
+
 
 Once dependencied have been installed proceed with `pitchfork`install:
 
@@ -24,5 +30,6 @@ automates dependency fetching/resolution:
   ```sh
   git clone https://github.com/PacificBiosciences/pitchfork && \
   cd pitchfork                                              && \
+  echo "HAVE_OPENBLAS = \usr" >> ./settings.mk && \
   sudo make pbccs
   ```
