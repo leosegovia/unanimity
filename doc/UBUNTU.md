@@ -16,7 +16,7 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 60 --slave 
 ## Install OPENBLAS
 
 ```
-sudo apt-ge t install libopenblas-* -y && \
+sudo apt-ge t install libopenblas-* -y 
 ```
 
 
